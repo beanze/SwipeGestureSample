@@ -6,6 +6,7 @@ target 'SwipeGestureSample' do
   use_frameworks!
 
   # Pods for SwipeGestureSample
+  pod 'SnapKit', '~> 3.2.0'
 
   target 'SwipeGestureSampleTests' do
     inherit! :search_paths
